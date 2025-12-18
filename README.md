@@ -1,7 +1,7 @@
-@ Solutions to the CSES problem set.
+# Solutions to the CSES problem set.
 
-feature:
+## feature:
 
 1. clean
 2. readable
-3. wxplanation
+3. explanation included
