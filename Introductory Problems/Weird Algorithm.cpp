@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     cin.tie(0); ios::sync_with_stdio(0);
-    long long a;
+    long long a; // the calculation process may exceed 2^31
     cin >> a;
     while (a > 1) {
         cout << a << " ";
