@@ -2,12 +2,13 @@
 using namespace std;
 int main() {
     cin.tie(0); ios::sync_with_stdio(0);
-    long long a, t, s = 0;
-    cin >> a;
-    for (int i = 1 ; i < a ; i ++) {
-        cin >> t;
-        s += t;
+    long long n, input, curr = 0;
+    cin >> n;
+    for (int i = 1 ; i < n ; i ++) {  // n - 1 numbers
+        cin >> input;
+        curr += input;
     }
-    cout << (a*(a+1)/2 - s);
+    // 1 + 2 + ... + n = n(n + 1) / 2
+    cout << (n*(n+1)/2 - curr);
     return 0;
 }
