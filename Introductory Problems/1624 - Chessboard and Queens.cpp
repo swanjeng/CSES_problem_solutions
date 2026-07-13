@@ -15,7 +15,7 @@ void dfs(int idx) {
         if (a[i][idx] == '*' || used[i]) continue;
         int f = 1;
         for (int j = 0 ; j < idx ; j ++) {
-            if (abs(d[j] - i) == abs(j - idx)) {
+            if (abs(d[j] - i) == abs(j - idx)) { // check if there is a queen in the same diagonal
                 f = 0;
                 break;
             }
