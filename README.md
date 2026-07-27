@@ -1,6 +1,6 @@
-# Solutions to the CSES problem set.
+# Solutions to the CSES problem set
 
-## features:
+## features
 
 1. clean
 2. readable
